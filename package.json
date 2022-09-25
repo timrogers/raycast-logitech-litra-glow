@@ -2,7 +2,7 @@
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "logitech-litra-glow",
   "title": "Logitech Litra Glow",
-  "description": "Manage your Logitech Litra Glow from Raycast",
+  "description": "Manage your Logitech Litra Glow light from Raycast",
   "icon": "command-icon.png",
   "author": "timrogers",
   "categories": [
