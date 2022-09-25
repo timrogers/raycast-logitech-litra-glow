@@ -43,6 +43,6 @@
     "publish": "ray publish",
     "prebuild": "npm run copy-binary",
     "predev": "npm run copy-binary",
-    "copy-binary": "mkdir -p /Applications/Raycast.app/Contents/Resources/RaycastCommands_RaycastCommands.bundle/Contents/Resources/api/build/ && cp ./node_modules/node-hid/build/Release/HID.node /Applications/Raycast.app/Contents/Resources/RaycastCommands_RaycastCommands.bundle/Contents/Resources/api/build/HID.node"
+    "copy-binary": "cp ./node_modules/node-hid/build/Release/HID.node ./assets"
   }
 }
