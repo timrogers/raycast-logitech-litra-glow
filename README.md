@@ -4,4 +4,4 @@ This [Raycast](https://www.raycast.com/) extension allows you to turn your [Logi
 
 ![Screenshot](screenshot.png?raw=true)
 
-It's powered by my [`litra-glow`](https://github.com/timrogers/litra-glow) npm package.
+It's powered by my [`litra`](https://github.com/timrogers/litra) npm package.

@@ -1,11 +1,16 @@
 import { showHUD, showToast, Toast } from "@raycast/api";
-import { findDevice, turnOff } from "litra-glow";
+import { findDevice, turnOff } from "litra";
 
 export default async function main() {
   try {
     const device = findDevice();
-    turnOff(device);
-    await showHUD("Turned off");
+
+    if (device) {
+      turnOff(device);
+      await showHUD("Turned off");
+    } else {
+      throw "No device found";
+    }
   } catch (e) {
     await showToast({
       style: Toast.Style.Failure,
