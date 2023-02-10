@@ -24,7 +24,7 @@
     }
   ],
   "dependencies": {
-    "@raycast/api": "^1.46.0",
+    "@raycast/api": "^1.47.3",
     "litra": "^3.2.0"
   },
   "devDependencies": {
